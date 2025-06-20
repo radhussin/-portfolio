@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* لون الخلفية الفاتح */
+    color: #000; /* لون النص الافتراضي */
+    direction: rtl; /* اتجاه الكتابة من اليمين لليسار */
+}
+
+.container {
+    width: 80%;
+    max-width: 800px;
+    margin: auto;
+    background: #ffffff; /* خلفية بيضاء للحاوية */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    margin: 0;
+}
+
+h2 {
+    padding: 10px;
+    border-bottom: 2px solid #ddd;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: right; /* محاذاة النص داخل الخلايا لليمين */
+}
+
+th {
+    background-color: #f2f2f2; /* لون خلفية رأس الجدول */
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+section {
+    margin-bottom: 20px;
+}
